@@ -2,7 +2,7 @@
 
 client_id = "02813ac70e0fb5102a3371a4c9cc32c5"
 name = "announcement-banner-app"
-application_url = "https://example.com"
+application_url = "https://announcement-banner-app-roih.onrender.com"
 embedded = true
 
 [access_scopes]
@@ -45,7 +45,7 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://announcement-banner-app-roih.onrender.com/api/auth" ]
 
 [build]
 include_config_on_deploy = true
