@@ -45,8 +45,8 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://announcement-banner-app-roih.onrender.com/api/auth" ]
+redirect_urls = [ "https://announcement-banner-app-roih.onrender.com/auth/callback",
+  "https://announcement-banner-app-roih.onrender.com/auth/shopify/callback"]
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
